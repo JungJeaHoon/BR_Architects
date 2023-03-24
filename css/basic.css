@@ -1,0 +1,242 @@
+@charset "UTF-8";
+body {font-family: Arial, Helvetica, sans-serif;}
+a{text-decoration: none;color:inherit;}
+
+/*Hader-text*/
+
+header {
+    position:relative;    
+}
+.top {
+    justify-content: space-between;
+    height:70px;
+    display: flex;
+    overflow: hidden;    
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    background-color: #fff;    
+    z-index: 100;   
+}
+.top_logo {
+    margin-left: 50px;
+    line-height: 70px;    
+}
+.top_logo a  {
+    padding: 15px; 
+    letter-spacing: 5px;  
+    font-size: 22px; 
+}
+.top_logo a > b {
+    font-weight: bold;
+}
+.top_logo a:hover {
+    background: #c0bfbf;
+}
+.top nav {
+    line-height: 70px;
+    letter-spacing: 4px; 
+    margin-right: 50px;   
+}
+.top nav a {
+    color:#1c1c1c;
+    padding: 15px;
+    font-size: 22px;
+}
+.top nav a:hover {
+    background: #c0bfbf;
+}
+
+/*Hader-img*/
+.visual {
+    position: relative;
+    width:1500px;
+    margin:0 auto;
+}
+.visual img {
+    max-width: 100%;
+    height:800px;    
+}
+.visual .visual_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #f1f1f1;
+    font-size: 36px;
+    letter-spacing: 4px;  
+}
+.visual .visual_text h1>span {
+    background:#1C2534;
+    padding: 10px;
+    opacity: 0.75;
+}
+
+/*section .project*/
+
+section {
+    width: 1500px;
+    margin: auto;
+    margin-top:30px
+}
+section .project {
+    display:block;
+    content:'';
+    clear: both;
+    position: relative;
+    width: 100%;    
+}
+section .project .pro_text {    
+    padding: 70px 0 30px 0;
+    border-bottom: 1px solid rgb(185, 182, 182);
+}
+section .project .pro_text h3 {
+    font-size: 19px;
+    letter-spacing: 3px;  
+}
+section .project .pro_img {   
+    margin-top:40px;
+    height: 850px;
+}
+section .project .pro_img .container {
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    padding:20px 5px 20px 5px;
+    float: left;        
+}
+section .project .pro_img .container .con_text {    
+    position: absolute;
+    padding: 15px;
+    background:#000;
+    color:#fff;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+section .project .pro_img .container img {
+    box-sizing: border-box;
+}
+.about .about_text {    
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+section .about .about_text h3 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 28px;
+    padding-top:16px;
+    padding-bottom: 25px;    
+    letter-spacing: 2px;
+}
+section .about .about_text p {
+    padding-top:24px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 25px; 
+}
+section .about .about_img {    
+    display: inline-block;
+    width: 24%;
+    overflow:hidden;
+    margin: 5px;    
+}
+section .about .about_img h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    letter-spacing: 3px;
+    padding-top:16px;
+    padding-bottom: 25px;   
+}
+section .about > .about_img > p {
+    margin: 0 0 20px 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+section .about > .about_img > .about_gray {
+    color:#717070;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+section .about > .about_img > .about_btn {
+    padding: 17px 15px;
+    background: #d5d4d4;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/*contact*/
+
+.contact {
+    width: 1500px;    
+    margin:auto;
+    margin-top:100px;
+}
+.contact .con_text h3 {
+    border-bottom: 1px solid #ccc!important;
+    font-size: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    letter-spacing:3px;
+}
+.contact .con_text p {
+    font-size: 19px;
+    line-height: 1.5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    letter-spacing:3px;
+}
+.contact form {
+    overflow:hidden;
+}
+.contact form input {
+    border: 1px solid #ccc9c9;
+    display:block;
+    padding:8px;
+    width: 98.7%;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size: 19px;
+}
+button {
+    padding:10px;
+    background:#000;
+    color:#fff;
+    font-size: 19px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.contact img {
+    width: 1500px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    background-color: #000;
+    height: 120px;
+}
+.footer {
+    text-align: center;
+    line-height: 120px;
+}
+.footer > p {
+    color:#fff;
+    font-size: 20px;
+}
+.footer > p > a {
+    color:#fff;
+    text-decoration: underline;
+}
+
+
